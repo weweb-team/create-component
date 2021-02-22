@@ -1,0 +1,25 @@
+{
+  "name": "@weweb/create",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "create": "index.js"
+  },
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weweb-team/create.git"
+  },
+  "author": "Weweb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weweb-team/create/issues"
+  },
+  "homepage": "https://github.com/weweb-team/create#readme",
+  "dependencies": {
+    "enquirer": "^2.3.6",
+    "minimist": "^1.2.5"
+  }
+}
