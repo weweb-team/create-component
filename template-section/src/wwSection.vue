@@ -13,7 +13,7 @@
 export default {
     name: "__COMPONENT_NAME__",
     wwDefaultContent: {
-        textColor: "#0000",
+        textColor: "#2912BF",
     },
     props: {
         content: { type: "Object", required: true },
