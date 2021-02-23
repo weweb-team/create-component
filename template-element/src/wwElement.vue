@@ -6,9 +6,9 @@
 
 <script>
 export default {
-    name: '__COMPONENT_NAME__',
-    wwDefaultContent() {
-        textColor: "#0000";
+    name: "__COMPONENT_NAME__",
+    wwDefaultContent: {
+        textColor: "#0000",
     },
     props: {
         content: { type: "Object", required: true },

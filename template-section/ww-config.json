@@ -4,7 +4,7 @@
         "label": {
             "en": "My Section"
         },
-        "settingsOptions": {
+        "styleOptions": {
             "textColor": {
                 "label": {
                     "en": "Text color"
