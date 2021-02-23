@@ -1,12 +1,25 @@
 <template>
     <div class="my-element">
-        <p>I am a custom element !</p>
+        <p :style="textStyle">I am a custom element !</p>
     </div>
 </template>
 
 <script>
 export default {
     name: '__COMPONENT_NAME__',
+    wwDefaultContent() {
+        textColor: "#0000";
+    },
+    props: {
+        content: { type: "Object", required: true },
+    },
+    computed: {
+        textStyle() {
+            return {
+                color: this.content.textColor,
+            };
+        },
+    },
 };
 </script>
 

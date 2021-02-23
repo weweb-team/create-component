@@ -1,3 +1,16 @@
 {
-    "componentPath": "./src/wwElement.vue"
+    "componentPath": "./src/wwElement.vue",
+    "editor": {
+        "label": {
+            "en": "My Element"
+        },
+        "settingsOptions": {
+            "textColor": {
+                "label": {
+                    "en": "Text color"
+                },
+                "type": "Color"
+            }
+        }
+    }
 }
