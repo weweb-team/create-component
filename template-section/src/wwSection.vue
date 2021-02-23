@@ -1,6 +1,6 @@
 <template>
     <div class="my-section">
-        <h1>My Title</h1>
+        <h1 :style="textStyle">My Title</h1>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
@@ -11,7 +11,20 @@
 
 <script>
 export default {
-    name: '__COMPONENT_NAME__',
+    name: "__COMPONENT_NAME__",
+    wwDefaultContent() {
+        textColor: "#0000";
+    },
+    props: {
+        content: { type: "Object", required: true },
+    },
+    computed: {
+        textStyle() {
+            return {
+                color: this.content.textColor,
+            };
+        },
+    },
 };
 </script>
 

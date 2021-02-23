@@ -1,3 +1,16 @@
 {
-    "componentPath": "./src/wwSection.vue"
+    "componentPath": "./src/wwSection.vue",
+    "editor": {
+        "label": {
+            "en": "My Section"
+        },
+        "settingsOptions": {
+            "textColor": {
+                "label": {
+                    "en": "Text color"
+                },
+                "type": "Color"
+            }
+        }
+    }
 }
