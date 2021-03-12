@@ -1,5 +1,5 @@
 {
-  "name": "@weweb/create",
+  "name": "@weweb/create-component",
   "version": "1.0.7",
   "main": "index.js",
   "bin": {
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/weweb-team/create.git"
+    "url": "git+https://github.com/weweb-team/create-component.git"
   },
   "author": "Weweb",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/weweb-team/create/issues"
+    "url": "https://github.com/weweb-team/create-component/issues"
   },
-  "homepage": "https://github.com/weweb-team/create#readme",
+  "homepage": "https://github.com/weweb-team/create-component#readme",
   "dependencies": {
     "enquirer": "^2.3.6",
     "minimist": "^1.2.5"
