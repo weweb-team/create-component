@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default (props) => {(
+export default (props) => {
   const style = { textColor: props.content.textColor }
   
   return (
@@ -8,5 +8,5 @@ export default (props) => {(
         <p style="{style}">I am a custom element !</p>
     </div>
   )
-)}
+}
 
