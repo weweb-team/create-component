@@ -1,0 +1,16 @@
+{
+    "componentPath": "./src/wwElement.jsx",
+    "editor": {
+        "label": {
+            "en": "My Element"
+        },
+        "styleOptions": {
+            "textColor": {
+                "label": {
+                    "en": "Text color"
+                },
+                "type": "Color"
+            }
+        }
+    }
+}

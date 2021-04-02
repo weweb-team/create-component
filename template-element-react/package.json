@@ -1,0 +1,14 @@
+{
+    "name": "my-element-starter",
+    "version": "0.0.1",
+    "scripts": {
+        "build": "weweb build",
+        "serve": "weweb serve"
+    },
+    "dependencies": {
+        "react": "^17.0.1"
+    },
+    "devDependencies": {
+        "@weweb/cli": "latest"
+    }
+}
