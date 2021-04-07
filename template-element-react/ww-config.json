@@ -1,5 +1,6 @@
 {
     "componentPath": "./src/wwElement.jsx",
+    "isReact": true,
     "editor": {
         "label": {
             "en": "My Element"
