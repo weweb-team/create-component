@@ -1,0 +1,17 @@
+{
+    "componentPath": "./src/wwSection.jsx",
+    "isReact": true,
+    "editor": {
+        "label": {
+            "en": "My Section"
+        },
+        "styleOptions": {
+            "textColor": {
+                "label": {
+                    "en": "Text color"
+                },
+                "type": "Color"
+            }
+        }
+    }
+}

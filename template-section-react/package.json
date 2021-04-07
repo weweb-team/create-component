@@ -1,0 +1,12 @@
+{
+    "name": "my-section-starter",
+    "version": "0.0.1",
+    "scripts": {
+        "build": "weweb build",
+        "serve": "weweb serve"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@weweb/cli": "latest"
+    }
+}
