@@ -13,7 +13,7 @@
 <script>
 export default {
   props: {
-    content: { type: "Object", required: true },
+    content: { type: Object, required: true },
   },
   computed: {
     textStyle() {
