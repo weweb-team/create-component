@@ -1,14 +1,11 @@
 {
-    "name": "my-element-starter",
-    "version": "0.0.1",
-    "scripts": {
-        "build": "weweb build",
-        "serve": "weweb serve"
-    },
-    "dependencies": {
-        "vue": "^2.6.12"
-    },
-    "devDependencies": {
-        "@weweb/cli": "latest"
-    }
+  "name": "my-element-starter",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "weweb build",
+    "serve": "weweb serve"
+  },
+  "devDependencies": {
+    "@weweb/cli": "latest"
+  }
 }
